@@ -30,11 +30,11 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
           <img
             src="/headset.svg"
             alt="headset"
-            className="w-1/2 h-1/2 object-contain"
+            className="object-contain w-1/2 h-1/2"
           />
         </div>
         <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
-          Enter Metaverse
+        Ingrese al Metaverso
         </p>
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
           {title}

@@ -24,20 +24,20 @@ const Feedback = () => (
             Samantha
           </h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-            Founder Metaverus
+          Fundadora de Metaverus
           </p>
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          “With the development of today's technology, metaverse is very
-          useful for today's work, or can be called web 3.0. by using
-          metaverse you can use it as anything”
+        “Con el desarrollo de la tecnología actual, el metaverso es muy
+          útil para el trabajo actual, o puede llamarse web 3.0. mediante el uso
+          metaverso puedes usarlo como cualquier cosa”
         </p>
       </motion.div>
 
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
-        className="relative flex-1 flex justify-center items-center"
+        className="relative flex items-center justify-center flex-1"
       >
         <img
           src="/planet-09.png"

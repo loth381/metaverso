@@ -2,8 +2,8 @@
 
 import { motion } from 'framer-motion';
 
-import styles from '../styles';
 import { TitleText, TypingText } from '../components';
+import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
 const World = () => (
@@ -16,11 +16,11 @@ const World = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
 
-      <TypingText title="| People on the World" textStyles="text-center" />
+      <TypingText title="| Gente en el mundo" textStyles="text-center" />
       <TitleText
         title={(
-          <>Track friends around you and invite them to play together in the same
-            world
+          <>
+          Sigue a tus amigos a tu alrededor e invítalos a jugar juntos en el mismo mundo
           </>
         )}
         textStyles="text-center"
@@ -30,7 +30,7 @@ const World = () => (
         variants={fadeIn('up', 'tween', 0.3, 1)}
         className="relative mt-[68px] flex w-full h-[550px]"
       >
-        <img src="/map.png" alt="map" className="w-full h-full object-cover" />
+        <img src="/map.png" alt="map" className="object-cover w-full h-full" />
 
         <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src="people-01.png" alt="people" className="w-full h-full" />

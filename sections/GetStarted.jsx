@@ -2,10 +2,10 @@
 
 import { motion } from 'framer-motion';
 
-import styles from '../styles';
-import { startingFeatures } from '../constants';
 import { StartSteps, TitleText, TypingText } from '../components';
-import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
+import { startingFeatures } from '../constants';
+import styles from '../styles';
+import { fadeIn, planetVariants, staggerContainer } from '../utils/motion';
 
 const GetStarted = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -30,8 +30,8 @@ const GetStarted = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| How Metaversus Works" />
-        <TitleText title={<>Get started with just a few clicks</>} />
+        <TypingText title="| Cómo funciona el metaverso" />
+        <TitleText title={<>Comience con solo unos pocos clics</>} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           {startingFeatures.map((feature, index) => (
             <StartSteps

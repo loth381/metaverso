@@ -1,12 +1,12 @@
 'use client';
 
-import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useState } from 'react';
 
-import styles from '../styles';
-import { exploreWorlds } from '../constants';
-import { staggerContainer } from '../utils/motion';
 import { ExploreCard, TitleText, TypingText } from '../components';
+import { exploreWorlds } from '../constants';
+import styles from '../styles';
+import { staggerContainer } from '../utils/motion';
 
 const Explore = () => {
   const [active, setActive] = useState('world-2');
@@ -20,9 +20,9 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| The World" textStyles="text-center" />
+        <TypingText title="| El mundo" textStyles="text-center" />
         <TitleText
-          title={<>Choose the world you want <br className="md:block hidden" /> to explore</>}
+          title={<>Elige el mundo que quieres <br className="hidden md:block" /> para explorar</>}
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
